@@ -12,7 +12,7 @@ The example uses the default Jekyll setup that as described in the [Jekyll quick
 Don't forget to update your Gemfile. If you are not sure what that means, open up your `Gemfile` and read the comments!
 
 > Getting the error below after making changes to your Gemfile?
-> ```
+```
 Running `bundle update` will rebuild your snapshot from scratch, using only
 the gems in your Gemfile, which may resolve the conflict.
 ```
