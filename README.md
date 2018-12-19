@@ -21,6 +21,32 @@ the gems in your Gemfile, which may resolve the conflict.
 ### _config.yml
 Don't forget to update Jekyll's config file. You can update information such as the site's title, your email, twitter username and github username in `_config.yml`. This is also where you can change what theme Jekyll tries to load.
 
+### Theme
+This example uses the [hacker theme](https://github.com/pages-themes/hacker).
+
+To be able to use the `hacker` theme, the `layout` config line was removed from `about.md` and `index.md`.
+
+For `index.md`:
+
+From:
+```
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
+```
+
+To:
+```
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+---
+
+```
+
 ## Deployment
 
 Once your website is ready for deployment, visit the [GitHub pages manual](https://pages.github.com/) again for instructions on deploying your page.
