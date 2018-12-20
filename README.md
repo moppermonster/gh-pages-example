@@ -1,5 +1,5 @@
 # gh-pages-example
-GitHub Pages example
+GitHub Pages example. [Resulting page](https://nielsds.github.io/gh-pages-example/).
 
 ## About
 This is an example of a *project specific* [GitHub pages](https://pages.github.com/) page using [Jekyll](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/).
@@ -47,6 +47,8 @@ To:
 
 ```
 
+> Note! It can take a few minutes before the theme is "found" by your page. Have a look at the commits in this project to see how long it took me to figure that one out.
+
 ## Deployment
 
 Once your website is ready for deployment, visit the [GitHub pages manual](https://pages.github.com/) again for instructions on deploying your page.
@@ -59,4 +61,3 @@ Once your website is ready for deployment, visit the [GitHub pages manual](https
 In this example, all Jekyll files were put into the repository root, in the master branch.
 
 If you are looking for a fancier solution, consider [this guide on using a gh pages branch](http://www.stephaniehicks.com/githubPages_tutorial/pages/orphan-ghpages.html).
-
